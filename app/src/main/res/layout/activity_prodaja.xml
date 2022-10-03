@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prodaja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            tools:ignore="SmallSp"
+            android:text="Prodaja LIMA:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/kupacProdaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            tools:ignore="SmallSp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:hint="Unesite kupca:" />
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/datumProdaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            tools:ignore="SmallSp"
+            android:inputType="textPersonName"
+            android:hint="Izaberite datum prodaje:" />
+
+        <EditText
+            android:id="@+id/jedinicaProdaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            tools:ignore="SmallSp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:hint="Unesite broj komada 1:" />
+
+        <EditText
+            android:id="@+id/osmicaProdaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            tools:ignore="SmallSp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:hint="Unesite broj komada 8:" />
+
+        <EditText
+            android:id="@+id/sedmicaProdaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            tools:ignore="SmallSp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:hint="Unesite broj komada 7:" />
+
+        <EditText
+            android:id="@+id/cenaProdaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            tools:ignore="SmallSp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:hint="Unesite cenu:" />
+
+        <Button
+            android:id="@+id/btnProdaja"
+            android:layout_marginTop="20dp"
+            tools:ignore="SmallSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEMORISI PRODAJU" />
+        <Button
+            android:id="@+id/pregledProdaje"
+            android:layout_marginTop="20dp"
+            tools:ignore="SmallSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREGLEDAJ PRODAJU" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

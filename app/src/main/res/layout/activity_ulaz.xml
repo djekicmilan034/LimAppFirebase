@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ulaz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Popunite formular:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/datumUlaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Izaberite datum ulaska:" />
+
+        <EditText
+            android:id="@+id/jedinicaUlaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Kilaza 1" />
+
+        <EditText
+            android:id="@+id/osmicaUlaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Kilaza 8" />
+
+        <EditText
+            android:id="@+id/sedmicaUlaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Kilaza 7" />
+
+        <EditText
+            android:id="@+id/cenaUlaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Cena:" />
+
+        <TextView
+            android:id="@+id/Tekst1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Broj komada 1:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/Tekst8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Broj komada 8:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/Tekst7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Broj komada 7:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/proracunKomada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="IZRACUNAJ BROJ KOMADA" />
+
+        <Button
+            android:id="@+id/btnPregledUlaza"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREGLEDAJ ULAZNE SIROVINE" />
+
+        <Button
+            android:id="@+id/btnUlaz"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SACUVAJ ULAZNE SIROVINE" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

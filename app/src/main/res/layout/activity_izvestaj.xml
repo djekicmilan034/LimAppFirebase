@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".izvestaj">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#314ADA"
+                android:text="Napravljeno 1: "
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prikaz1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#314ADA"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView> </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Napravljeno 8: "
+                android:textSize="23sp"
+                android:textColor="#314ADA"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prikaz8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#314ADA"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView> </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Napravljeno 7: "
+                android:textSize="23sp"
+                android:textColor="#314ADA"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prikaz7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#314ADA"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView> </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ulozeno: "
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prikazUlozen"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView> </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prodato: "
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prikazZarada"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView> </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ukupni prihod: "
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/saldo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView> </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prodato 1: "
+                android:textSize="23sp"
+                android:textColor="#E11359"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prodati1"
+                android:layout_width="100dp"
+                android:textColor="#E11359"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prodato 7: "
+                android:textColor="#E11359"
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prodati7"
+                android:layout_width="100dp"
+                android:textColor="#E11359"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prodato 8: "
+                android:textSize="23sp"
+                android:textColor="#E11359"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prodati8"
+                android:layout_width="100dp"
+                android:textColor="#E11359"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raspolozivo 1: "
+                android:textColor="#0ABA11"
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/raspolozivo1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textColor="#0ABA11"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raspolozivo 7: "
+                android:textColor="#0ABA11"
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/raspolozivo7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#0ABA11"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0ABA11"
+                android:text="Raspolozivo 8: "
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/raspolozivo8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0ABA11"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_marginTop="20dp"
+            tools:ignore="SmallSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

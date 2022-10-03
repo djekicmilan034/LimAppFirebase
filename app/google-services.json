@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977662931001",
+    "project_id": "limappsept2",
+    "storage_bucket": "limappsept2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977662931001:android:ef1acd73571fbc33205de8",
+        "android_client_info": {
+          "package_name": "com.example.limappsept2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977662931001-hpisgdg892kt9q5j0qu6jbh4ka0tp5pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD92S4wvoAzDNC5ncz8dR-VzHAF8Gilu_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977662931001-hpisgdg892kt9q5j0qu6jbh4ka0tp5pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
